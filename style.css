@@ -1,0 +1,131 @@
+/* nothing here yet */
+
+body {
+    background: floralwhite;
+    padding: 3em;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0.8em;
+
+}
+
+.box {
+    display: inline-block;
+    align-content: center;
+    border: black solid 2px;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(175px, auto);
+}
+
+.blank {
+    grid-column: 2 / 5;
+    grid-row: 1;
+    border: 2px solid transparent;
+}
+
+.sun {
+    grid-column: 5;
+    grid-row: 1;
+    background: paleturquoise;
+}
+
+.deck {
+    grid-column: 2 / 4;
+    grid-row: 2;
+    background: khaki;
+}
+
+.living {
+    grid-column: 4 ;
+    grid-row: 2; 
+    background: pink;
+}
+
+.dining {
+    grid-column: 5;
+    grid-row: 2;
+    background: plum;
+}
+
+.entry {
+    grid-column:2 ;
+    grid-row: 3;
+    background: rgb(247, 192, 91);
+    color:rgb(121, 78, 0)
+}
+
+.kitchen {
+    grid-column: 3 / 5;
+    grid-row:  3;
+    background: rgb(175, 231, 175);
+}
+
+.puzzle {
+    grid-column: 5;
+    grid-row:  3;
+    background: rgb(255, 139, 119);
+}
+
+a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+
+.pic {
+    width: 275px;
+    height: 300px;
+}
+
+.entry .arrow {
+    color:rgb(121, 78, 0)
+}
+.arrow {
+    /* color: black; */
+    text-decoration: none;
+}
+
+.img {
+    display: inline-block;
+}
+
+.story {
+    justify-content: center;
+    border: black solid 1px;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.profile {
+    display: inline-block;
+    width: 300px;
+    justify-content: center;
+    border:  solid 1px;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+
+
+
