@@ -2,65 +2,84 @@
 <html>
 
 <head>
-    <title>Profiles</title>
+    <title>Entry</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="entry">
-    <h1 class="home"><a href="index.html">🏠</a></h1>
+    <a href="index.html"><img class="home" src="images/home.png"></a>
 
     <h1 class="title">Entry</h1>
 
-    <main class="room">
-        <h1><a href="deck.html" class="arrow">&#8679;</a></h1>
-        <div class="img">
-            <!-- <h1 class="img"><a href="living.html" class="arrow">&#8678;</a></h1> -->
-            <img src="images/entry.jpg" class="img">
-            <h1 class="img"><a href="kitchen.html" class="arrow">&#8680;</a></h1>
-        </div>
-        <!-- <h1><a href="puzzle.html" class="arrow">&#8681;</a></h1> -->
-    </main>
+    <table class="room">
+        <tr>
+            <th></th>
+            <th><h1><a href="deck.html" class="arrow">&#8679;</a></h1></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th><h1 class="img"><a class="none">&#8678;</a></h1></th>
+            <th><img src="images/entry.jpg" class="img"></th>
+            <th><h1 class="img"><a href="kitchen.html" class="arrow">&#8680;</a></h1></th>
+        </tr>
+        <tr>
+            <th></th>
+            <th><h1><a class="none">&#8681;</a></h1></th>
+            <th></th>
+        </tr>
+    </table>
 
     <main class="profiles">
         <div class="profile">
             <img src="images/kelly.jpg" class="pic">
             <h3>Kelly</h3>
-            <audio controls src="/audio/kelly.m4a">
-                Your browser does not support the
-                <code>audio</code> element.
+            <audio controls>
+                <source src="audio/kelly.mp3" type="audio/mp3">
             </audio>
         </div>
         <div class="profile">
             <img src="images/liz.jpg" class="pic">
             <h3>Liz</h3>
-            <p>Audio goes here</p>
+            <audio controls>
+                <source src="audio/liz.mp3" type="audio/mp3">
+            </audio>
         </div>
         <div class="profile">
             <img src="images/shayla.jpg" class="pic">
             <h3>Shayla</h3>
-            <p>Audio goes here</p>
+            <audio controls>
+                <source src="audio/shayla.mp3" type="audio/mp3">
+            </audio>
         </div>
         <div class="profile">
             <img src="images/aviva.jpg" class="pic">
             <h3>Aviva</h3>
-            <p>Audio goes here</p>
+            <audio controls>
+                <source src="audio/aviva.mp3" type="audio/mp3">
+            </audio>
         </div>
         <div class="profile">
             <img src="images/em.jpg" class="pic">
             <h3>Emily</h3>
-            <p>Audio goes here</p>
+            <audio controls>
+                <source src="audio/emily.mp3" type="audio/mp3">
+            </audio>
         </div>
         <div class="profile">
             <img src="images/amy.jpg" class="pic">
             <h3>Amy</h3>
-            <p>Audio goes here</p>
+            <audio controls>
+                <source src="audio/amy.mp3" type="audio/mp3">
+            </audio>
         </div>
         <div class="profile">
             <img src="images/fran.jpg" class="pic">
             <h3>Fran</h3>
-            <p>Audio goes here</p>
+            <audio controls>
+                <source src="audio/fran.mp3" type="audio/mp3">
+            </audio>
         </div>
     </main>
 
