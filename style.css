@@ -162,16 +162,16 @@ a {
 }
 
 .img {
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
     padding: 0;
     margin: 0 auto;
     object-fit: cover;
 }
 
 .pic {
-    max-width: 275px;
-    max-height: 325px;
+    width: 275px;
+    height: 325px;
 }
 
 .arrow {

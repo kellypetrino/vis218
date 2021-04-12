@@ -1,0 +1,11 @@
+1. Taylor Swift - analysis of each of the albums and the main themes of them, rankings of the songs based on different factors (lyrics, appeal to top charts, etc.)
+Possible ideas for web:
+- a guitar with strings that correspond to the albums
+- different iconic images from each "era" (number 13, red lip, snake, heart, cardigan)
+
+2. Interviewing my roommates - could ask them a lot of different things, think it would be interesting to have the focus of each be different and correspond to their personalities, could make a picture of a house and have each window lead to the interview with them
+
+3. Learning to cook new things - alternatively, making the dishes I grew up with and seeing if they have the same nostalgic effect 
+Possible ideas for web:
+- a map with certain places highlighted where I'm making dishes from
+- a kitchen 
