@@ -196,7 +196,7 @@ a {
 
 .profile {
     display: inline-block;
-    max-width: 300px;
+    width: 300px;
     justify-content: center;
     border:  solid 1px;
     margin: 1em auto;
