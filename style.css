@@ -211,6 +211,10 @@ table  {
 .gather {
     color: gray
 }
+.gather:hover {
+    color: darkgray;
+    
+}
 
 
 
